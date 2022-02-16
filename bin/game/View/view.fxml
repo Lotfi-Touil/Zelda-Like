@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="512.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.Controller.Controller">
+   <children>
+     <Canvas fx:id="CanvasStatic" height="512.0" width="512.0" />
+      <Canvas fx:id="CanvasDestructible" height="512.0" width="512.0" />
+      <Canvas fx:id="CanvasObjects" height="512.0" width="512.0" />
+      <Canvas fx:id="CanvasPersonnage" height="512.0" width="512.0" />
+      <Canvas fx:id="CanvasEnemies" height="512.0" width="512.0" />
+      <Canvas fx:id="CanvasProjectile" height="512.0" width="512.0" />
+      <Canvas fx:id="CanvasDerrieres" height="512.0" width="512.0" />
+      <Canvas fx:id="CanvasOverlay" height="512.0" width="512.0" />
+      <Canvas fx:id="canvasOverlayContent" height="128.0" layoutX="144.0" layoutY="192.0" width="256.0" />
+      <Canvas fx:id="canvasMenu" height="464.0" layoutX="24.0" layoutY="24.0" width="464.0" />
+   </children>
+</Pane>
